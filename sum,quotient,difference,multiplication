@@ -1,0 +1,31 @@
+
+ 
+int main(){
+   
+    int a,b;
+    int sum, difference, product, modulo;
+    float quotient;
+     
+    printf("Enter a: ");
+    scanf("%d", &a);
+    printf("Enter b: ");
+    scanf("%d", &b);
+     
+    
+    sum = a +b;
+    
+    difference = a -b;
+    
+    product = a * b;
+    
+    quotient = (float)a / b;
+   
+  
+     
+    printf("\nSum = %d", sum);
+    printf("\nDifference  = %d", difference);
+    printf("\nMultiplication = %d", product);
+    printf("\nDivision = %.3f", quotient);
+   
+     
+    return 0;
